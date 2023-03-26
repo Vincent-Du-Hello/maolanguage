@@ -3,7 +3,7 @@
  * Beast_SDK JavaScript
  */
 
- const beastDictArr = ["土","豆","发","芽"]
+ const beastDictArr = ["猫","毛","铆","茂"]
 
  function encode(rawStr) {
      let charArr = rawStr.split("")

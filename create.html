@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"\>
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>自定义转换器生成器</title>
+        <script src="./jquery.js"></script>
+        <script src="./cryptojs/core.js"></script>
+        <script src="./cryptojs/enc-base64.js"></script>
+        <script src="./cryptojs/enc-utf16.js"></script>
+        <script src="./cryptojs/cipher-core.js"></script>
+        <script src="./cryptojs/aes.js"></script>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <!--<div id="background">
+            <h2>自定义转换器生成器</h2>
+        </div>-->
+        <div id="title">
+            <h1>自定义转换器生成器</h1>
+        </div>
+        <div id="translate">
+            <span>语言名：</span><input id="name" type="text"/><br/>
+            <span>背景：</span><input id="bg" type="text"/><br/>
+            <span>字符1：</span><input id="c1" type="text"/><br/>
+            <span>字符2：</span><input id="c2" type="text"/><br/>
+            <span>字符3：</span><input id="c3" type="text"/><br/>
+            <span>字符4：</span><input id="c4" type="text"/><br/>
+            <span>本地模式：</span><input id="lc" type="checkbox"/><br/>
+            <button id="gen">生成</button><br/>
+            <textarea id="mao"></textarea><br/>
+            <iframe src="about:blank" id="pv"></iframe>
+        </div>
+        <div id="mask">
+            
+        </div>
+        <script src="./create.js"></script>
+    </body>
+</html>
