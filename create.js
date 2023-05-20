@@ -26,6 +26,6 @@ if(!passwords.includes(pass)){
 $("#mask").hide();
 alert("密码正确，欢迎使用自定义工具");
 $("#gen").click(function (e) { 
-    $("#mao").val((!$("#lc").prop("checked")?"https://vincent-du-hello.github.io/maolanguage/custom.html?key=":"file:///Users/vincent/Documents/VSCode/maolan/custom.html?key=")+encJson({"words":[$("#c1").val(),$("#c2").val(),$("#c3").val(),$("#c4").val()],"background":$("#bg").val(),"name":$("#name").val()}))
+    $("#mao").val((!$("#lc").prop("checked")?"https://yuyanmc.github.io/maolanguage/custom.html?key=":"file:///Users/vincent/Documents/VSCode/maolan/custom.html?key=")+encJson({"words":[$("#c1").val(),$("#c2").val(),$("#c3").val(),$("#c4").val()],"background":$("#bg").val(),"name":$("#name").val()}))
     $("#pv").attr("src",$("#mao").val())
 });
